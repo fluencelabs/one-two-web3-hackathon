@@ -5,30 +5,34 @@
 
 ## About Fluence
 
-Fluence provides the protocol, infrastructure and tools to enable decentralized compute for applications and backends on peer-to-peer networks. Nodes in the Fluence peer-to-peer network host discoverable services comprised of WebAssembly Interface Types (IT) modules. Resource discovery is achieved by function addressability rather than REST or JSON-RPC. Aqua, Fluence's purpose-built distributed systems programming language, allows developers to seamlessly program distributed networks and compose hosted services into decentralized applications. As a result, the Fluence protocol and solution stack allows you to quickly and effectively create and implement Web3 protocols and associated governance models within the decentralized serverless paradigm.
+Fluence provides the protocol, infrastructure and tools to enable decentralized compute for applications and backends on peer-to-peer networks. Fluence nodes host discoverable services comprised of WebAssembly modules, using Wasm standards to link modules and access external resources. Service discovery is achieved by p2p function addressability rather than REST or JSON-RPC. 
+
+Control flow of service execution is abstracted out to Aqua, a Fluence's purpose-built distributed systems programming language. Aqua simplifies creation of distributed algorithms (such as orchestration, replication, consensus, parallel execution, etc) on top of distributed function calls, allowing to compose hosted services into reliable decentralized applications. As a result, the Fluence protocol and solution stack allows you to quickly and effectively create and implement Web3 protocols.
 
 ## Hacking With Fluence
 
-The Fluence peer-to-peer compute protocol allows you to create decentralized off-chain protocols and applications with ease. In addition to the general pool, Fluence is sponsoring the following named bounties:
+Fluence is sponsoring the following named bounties:
 
+### Track Metaverse & Gaming: Best use of Fluence to create dynamic NFT: USDC XXXX
 
+TBD
 
-### Track Cloning Web2: Best AWS Lambda and Stepfunction packaging of Fluence and Aqua: USDC 10,000.00
+### Track Developer tooling: Create decentralized blockchain RPC with Fluence: USDC XXXX
 
-Fluence already allows developers to implement robust, performant and portable WASM IT business logic with Fluence's [Marine SDK]. Moreover, Fluence's peer-to-peer Aqua language empowers developers to compose distributed services into decentralized protocols and applications. That is, Fluence already provides significant pieces to enable powerful decentralized Function as a Service (FaaS).
+TBD
 
-The purpose of this bounty is to entourage teams to package Fluence's development and tooling solutions, utilizing Fluence's testnet, in to a best-in-class AWS Lambda clone ideally with a string element of interoperability at least at the invocation level from AWS Lambda and at the tooling level. That is, 
+### Track Cloning Web2: Best AWS Lambda clone with Fluence: USDC XXXX
 
-* AWS Lambda (JS) function should be able to call Fluence Faas and yes, there will be extra points for a good project name other than Fluence θ :) and
-* your tooling namespaces and flags should be interoperable with AWS (Lambda) CLI as much as possible
+Fluence already allows developers to implement robust, performant and portable WASM IT business logic with Fluence's [Marine SDK]. Moreover, Fluence's  Aqua language empowers developers to compose distributed services function calls into a broader business logic. That is, Fluence already provides significant pieces to enable powerful decentralized Function as a Service (FaaS) where you can think of Wasm services as cloud functions (e.g. AWS Lambda) and Aqua scripts as workflows (e.g. AWS Step Functions or GCP Workflows).
 
-### Track Doing Good: Best integration of Fluence and Aqua into DAO proposals and execution: USDC 10,000.00
+The purpose of this bounty is to entourage teams to package Fluence's development and tooling solutions, utilizing Fluence's testnet, into an AWS Lambda clone:
+
+* It should be able to create, deploy, and run functions (Wasm) in the Fluence network with the experience as close to Web 2 cloud functions as possible. You must use Aqua scripts to deploy and call functions on peers.
+* As a bonus, it should be able to create, deploy and run workflows on top of functions as analogy to AWS Step functions, so users would be able to construct comprehensive workflows across deploying and calling functions.
+
+### Track Doing Good: Best integration of Fluence into DAO proposals and execution: USDC XXXX
 
 As DAOs get more prevalent and deeper and wider in their range of execution, 'code is law' at the proposal level becomes even more important. In this bounty track, we'd like to see submissions that create a (somewhat) generalized framework that attaches (compiled) Aqua workflow(s), e.g., as IPFS or Filecoin documents, as immutable compute instruction(s) to a DAO proposal and provides a mechanism to run the accepted proposal's compute, i.e. compiled Aqua script, for both on- and off-chain DAOs.
-
-### Any Track: Best use of Filecoin, Morialis and Fluence in a DApp or Tool: 10 x USDC 500.00
-
-nuff said.
 
 
 ## Hacking On Fluence
@@ -43,14 +47,22 @@ TBD
 
 Fluence has a variety of components and building blocks available to accelerate your project build.
 
-### General
+### Documentation
 
-* [Workshop and prizes](https://youtu.be/TMHs0H85n6E)
 * [Fluence Documentation](https://doc.fluence.dev/docs/)
 * [Aqua Book](https://doc.fluence.dev/aqua-book/)
+* [Marine Book](https://doc.fluence.dev/marine-book/)
 * [Fluence Quickstart](https://github.com/fluencelabs/examples/tree/main/quickstart)
 * [Fluence Examples](https://github.com/fluencelabs/examples)
-* [Discord](https://fluence.chat)
+
+### Videos
+* [Workshop and prizes](https://youtu.be/TMHs0H85n6E)
 * [Fluence Youtube](https://www.youtube.com/channel/UC3b5eFyKRFlEMwSJ1BTjpbw)
-* [Book A Meeting With The Team](https://calendly.com/fluencehack/)
+
+### Community
+* [Discord](https://fluence.chat)
+* [Telegram](https://t.me/fluence_project)
+
+### Support
+* [Book A Meeting With Fluence Labs](https://calendly.com/fluencehack/)
 
