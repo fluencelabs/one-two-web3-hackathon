@@ -5,34 +5,35 @@
 
 ## About Fluence
 
-Fluence provides the protocol, infrastructure and tools to enable decentralized compute for applications and backends on peer-to-peer networks. Fluence nodes host discoverable services comprised of WebAssembly modules, using Wasm standards to link modules and access external resources. Service discovery is achieved by p2p function addressability rather than REST or JSON-RPC. 
+Fluence provides the protocol, infrastructure and tools to enable decentralized compute for applications and backends on peer-to-peer networks. Fluence nodes host discoverable services comprised of WebAssembly modules, using Wasm standards to link modules and access external resources. Service discovery is achieved by p2p function addressability rather than REST or JSON-RPC.
 
-Control flow of service execution is abstracted out to Aqua, a Fluence's purpose-built distributed systems programming language. Aqua simplifies creation of distributed algorithms (such as orchestration, replication, consensus, parallel execution, etc) on top of distributed function calls, allowing to compose hosted services into reliable decentralized applications. As a result, the Fluence protocol and solution stack allows you to quickly and effectively create and implement Web3 protocols.
+The control flow of service execution is abstracted by Aqua, Fluence's purpose-built distributed systems programming language. Aqua simplifies the creation of distributed algorithms, such as orchestration, replication, consensus, parallel execution, etc., on top of distributed function calls allowing developers to compose hosted services into reliable decentralized applications. As a result, the Fluence protocol and solution stack allows you to quickly and effectively create and implement Web3 protocols.
 
 ## Hacking With Fluence
 
 Fluence is sponsoring the following named bounties:
 
-### Track Metaverse & Gaming: Best use of Fluence to create dynamic NFT: USDC XXXX
+### Track Metaverse & Gaming USDC 3,000.00, USDC 1,500.00, USDC 500.00
 
-TBD
+Example project:
+Dynamic NFTs, i.e., NFTs' with mutable metadata, are an integral part of Web3 gaming and metaverse solutions. Fluence and Aqua provide the tooling and infrastructure for developers to easily create powerful, event-driven compute solutions for dynamic NFTs.
 
-### Track Developer tooling: Create decentralized blockchain RPC with Fluence: USDC XXXX
+### Track Developer tooling USDC 3,000.00, USDC 1,500.00, USDC 500.00
 
-TBD
+Example project:
+Building and composing WASM adapters for on-chain RPC is easily accomplished with Fluence and Aqua. In a time where multiple EVM-based solutions are available and up for real-time performance comparisons for contract deployment and optimal transaction routing and general cross-chain integration is highly desireable, Fluence and Aqua provide the tools and infrastructure to buidl decentralized  multi-chain listeners and event-drivers, decentralized relays or decentralized blockchain gateway solutions that can prove to be real game changers.
 
-### Track Cloning Web2: Best AWS Lambda clone with Fluence: USDC XXXX
+### Track Cloning Web2 USDC 3,000.00, USDC 1,500.00, USDC 500.00
 
-Fluence already allows developers to implement robust, performant and portable WASM IT business logic with Fluence's [Marine SDK]. Moreover, Fluence's  Aqua language empowers developers to compose distributed services function calls into a broader business logic. That is, Fluence already provides significant pieces to enable powerful decentralized Function as a Service (FaaS) where you can think of Wasm services as cloud functions (e.g. AWS Lambda) and Aqua scripts as workflows (e.g. AWS Step Functions or GCP Workflows).
+Example project:
+Fluence already allows developers to implement robust, performant and portable WASM IT business logic. Using Fluence's already significant solution pieces, teams can set out and package and augment Fluence's development and tooling solutions to create a Web3 AWS Lambda clone.
 
-The purpose of this bounty is to entourage teams to package Fluence's development and tooling solutions, utilizing Fluence's testnet, into an AWS Lambda clone:
+### Track Doing Good USDC 3,000.00, USDC 1,500.00, USDC 500.00
 
-* It should be able to create, deploy, and run functions (Wasm) in the Fluence network with the experience as close to Web 2 cloud functions as possible. You must use Aqua scripts to deploy and call functions on peers.
-* As a bonus, it should be able to create, deploy and run workflows on top of functions as analogy to AWS Step functions, so users would be able to construct comprehensive workflows across deploying and calling functions.
+Example project:
+As DAOs play an increasingly prominent role in decentralized governance, 'code is law' plays a critical role in efficiently but verifiable handle voting on proposals and the actual resolution execution. Marine Wasm modules and compiled Aqua can already be embedded as (IPLD) CIDs into DAO proposals, for example, and upon a proposal's acceptance, verifiably executed. Creating a framework for such an approach with Fluence and Aqua for either on or off-chain DAOs would vastly improve DAOs' operational effectiveness and autonomy.
 
-### Track Doing Good: Best integration of Fluence into DAO proposals and execution: USDC XXXX
-
-As DAOs get more prevalent and deeper and wider in their range of execution, 'code is law' at the proposal level becomes even more important. In this bounty track, we'd like to see submissions that create a (somewhat) generalized framework that attaches (compiled) Aqua workflow(s), e.g., as IPFS or Filecoin documents, as immutable compute instruction(s) to a DAO proposal and provides a mechanism to run the accepted proposal's compute, i.e. compiled Aqua script, for both on- and off-chain DAOs.
+### Any Track: Best Use of Fluence, Filecoin and Moralis, USDC: 1,000 x 5
 
 
 ## Hacking On Fluence
