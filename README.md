@@ -1,7 +1,7 @@
 # One Two Web3 Hackaton
 
 
-[Fluence](https://fluence.network/) is excited to co-sponsor the [one two web3](https://moralis.io/filecoin-hackathon/) with a FLuence contribution of USDC 25,000 to make the summer of '22 count!
+[Fluence](https://fluence.network/) is excited to co-sponsor the [one two web3](https://moralis.io/filecoin-hackathon/) hackathon with a FLuence contribution of USDC 25,000.
 
 ## About Fluence
 
